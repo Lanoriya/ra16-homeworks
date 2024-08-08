@@ -1,0 +1,23 @@
+* {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+}
+
+.ul-steps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+.steps-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-gap: 20px;
+}
