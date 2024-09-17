@@ -1,14 +1,16 @@
-import { useState } from 'react'
+import { GetLoading } from './components/GetLoading';
+import { GetData } from './components/GetData';
+import { GetError } from './components/GetError';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <GetData />
+      <GetLoading />
+      <GetError />
     </>
   )
 }
 
-export default App
+export default App;
